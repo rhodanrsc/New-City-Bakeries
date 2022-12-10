@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+    color: white;
+    background-image: url("../images/bakery.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+    font-family: 'Hind', sans-serif;
+}
+
+* {
+    box-sizing: inherit;
+}
+ 
+header {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+}
+
+header div {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header h3 {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px 40px;
+    margin: 0 auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 450px;
+    margin: 20px auto;
+}
+
+main .order {
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+    width: 380px;
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+}
+
+label {
+    margin: 5px;
+}
+
+input, select {
+    border: none;
+}
+
+.info h3 {
+    margin-top: 0;
+}
+
+.info div {
+    margin: 0 auto;
+}
+
+.info div label {
+    display: inline-block;
+    width: 150px;
+}
+
+/* #radius_in, #width_in, #length_in {
+    display: none;
+} */
+
+/* .specs #radius, .specs #width, .specs #length {
+    display: none;
+    width: 80px;
+} */
+
+.layers {
+    display: inline-block;
+    width: 80px;
+}
+
+.add div label {
+    display: inline-block;
+    width: 240px;
+}
+
+.add div p {
+    display: inline;
+}
+
+div.buttons {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#invoice {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#invoice li {
+    display: inline-block;
+    width: 240px;
+}
+
+#invoice p {
+    display: inline-block;
+}
+
+
+
+
+

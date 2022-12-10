@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind:wght@300&display=swap" rel="stylesheet">
+        <title>New City Bakeries</title>
+        <link rel="stylesheet" type="text/css" href="./assets/styles/newcitybakeries.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>New City Bakeries</h1>
+                <h3>123 Fake St</h3>
+                <h3>(587) 153-5442</h3>
+            </div>
+        </header>
+        
+        <main>
+            <div class="order">
+                <form class="info">
+                    <h3>Personal Information -</h3>
+                    <div>
+                        <label>First Name:</label>
+                        <input type="text" id="cust_first_name" required autofocus>
+                    </div>
+                    <div>
+                        <label>Last Name:</label>
+                        <input type="text" id="cust_last_name" required>
+                    </div>
+                    <div>
+                        <label>Address:</label>
+                        <input type="text" id="cust_address" required>
+                    </div>
+                    <div>
+                        <label>Postal Code:</label>
+                        <input type="text" id="cust_post_code" required>
+                    </div>
+                    <div>
+                        <label>Phone Number:</label>
+                        <input type="tel" id="cust_phone" required>
+                    </div>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" id="cust_email" required>
+                    </div>
+                </form>
+                <div class="shape">
+                    <h3>Cake Shape -</h3>
+                    <div>
+                        <input type="radio" name="cake[]" id="sheet_cake">
+                        <label>Sheet</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="cake[]" id="round_cake">
+                        <label>Round</label>
+                    </div>
+                </div>
+                <div id="specs">
+                </div>
+                <div class="add">
+                    <h3>Additional Choices -</h3>
+                    <div>
+                        <input type="checkbox" id="cream_cheese">
+                        <label>Cream Cheese icing</label><p>$5</p>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="frt_almonds">
+                        <label>Fruit and Almonds topping</label><p>$7</p>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="frt_jam">
+                        <label>Fruit jam filling between layers</label><p>$4</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="submit" onclick="order();">Submit</button>
+                    <button id="reset" onclick="location.reload();">Reset</button>
+                </div>
+                
+                <div id="invoice"></div>
+            </div>   
+        </main>
+        <script src="./assets/scripts/newcitybakeries.js" type="text/javascript"></script>
+    </body>
+
+</html>
